@@ -1,0 +1,31 @@
+header {
+    min-height: 100vh;
+    background: url('../../assets/elementogrande1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header .wrapper {
+   position: relative;
+   height: 100vh;
+}
+
+header .cta {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 600px;
+    height: 123px;
+    flex-shrink: 0;
+    background: rgba(0, 0, 0, 0.65);
+ }
+
+ header .cta .course-name {
+    font-size: 72px;
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+ }
